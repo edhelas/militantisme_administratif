@@ -1,0 +1,117 @@
+@font-face {
+	font-family: "OpenSans";
+	src: url('OpenSans-Light.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 650px;
+    margin: 4rem auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 8px;
+}
+
+a:link, a:visited {
+    color: tomato;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+h2 {
+    font-size: 2rem;
+    line-height: 2rem;
+    color: gray;
+    margin-bottom: 2rem;
+}
+
+h3 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    color: tomato;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+q:not(:empty) {
+    font-size: 1.25rem;
+    margin: 1rem 1rem;
+    font-style: italic;
+    display: block;
+    text-align: center;
+}
+
+q:not(:empty)::before {
+    content: "«";
+}
+
+q img {
+    margin-bottom: 0;
+}
+
+q span {
+    font-size: 1rem;
+    margin-top: 1rem;
+    display: block;
+}
+
+q span::before {
+    content: "—";
+    padding-right: 1rem;
+}
+
+q::before {
+    margin-right: 1rem;
+    font-size: 3rem;
+    color: tomato;
+    line-height: 0;
+}
+
+q::after {
+    display: none;
+}
+
+h1 span {
+    font-size: 0.8em;
+    color: tomato;
+}
+
+p, ul li, ol li {
+    line-height: 1.5rem;
+    font-size: 1.15rem;
+    color: rgb(28, 46, 37);
+    text-align: justify;
+}
+
+ul li, ol li {
+    margin-left: 1.5rem;
+    padding-left: 1rem;
+    margin-bottom: 0.5rem
+}
+
+ul, ol {
+    margin-bottom: 1rem;
+}
+
+p {
+    text-indent: 1rem;
+    margin-bottom: 1rem;
+}
+
+img {
+    max-width: 100%;
+    margin: 2rem auto;
+    display: block;
+}
