@@ -14,6 +14,7 @@ body {
     margin: 4rem auto;
     font-family: 'Open Sans', sans-serif;
     font-size: 8px;
+    padding: 1rem;
 }
 
 a:link, a:visited {
