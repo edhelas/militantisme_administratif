@@ -1,0 +1,48 @@
+body.wide {
+    max-width: 100%;
+    margin: 0 1rem;
+    padding: 0;
+}
+
+div.info {
+    border: 1px solid gray;
+    padding: 1rem;
+    width: 17rem;
+    float: right;
+    margin: 0 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+div.info p {
+    font-size: 1rem;
+    line-height: 1.3rem;
+}
+
+article {
+    padding: 1rem;
+    padding-top: 2rem;
+}
+
+article p {
+    color: black;
+    font-size: 1.1rem;
+    line-height: 1.35rem;
+}
+
+span.line {
+    display: flex;
+    height: 1.25rem;
+    border-bottom: 2px black dotted;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+@media print {
+    article {
+        break-after: always;
+    }
+}
